@@ -2,4 +2,17 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="spacing_normal_16">16dp</dimen>
+    <dimen name="mobile_status_bar">24dp</dimen>
+    <dimen name="spacing_larger_96">96dp</dimen>
+    <dimen name="spacing_bigger_40">40dp</dimen>
+    <dimen name="size_small_16">16dp</dimen>
+    <dimen name="spacing_medium_32">32dp</dimen>
+    <dimen name="size_collapsed_image_320">320dp</dimen>
+    <dimen name="spacing_medial_24">24dp</dimen>
+    <dimen name="spacing_small_8">8dp</dimen>
+    <dimen name="spacing_tiny_4">4dp</dimen>
+    <dimen name="size_large_88">88dp</dimen>
+    <dimen name="size_medium_56">56dp</dimen>
+    <dimen name="line_size_1">1dp</dimen>
 </resources>

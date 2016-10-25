@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="172dp"
+                android:paddingTop="@dimen/mobile_status_bar"
+                android:paddingBottom="8dp"
+                android:paddingLeft="@dimen/spacing_normal_16"
+                android:paddingRight="@dimen/spacing_normal_16"
+                android:background="@drawable/header_drawer">
+    <LinearLayout
+        style="@style/nav_layout">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fio_caption"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:text="@string/app_coder"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mail_caption"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:text="@string/text_email"/>
+    </LinearLayout>
+
+</RelativeLayout>
