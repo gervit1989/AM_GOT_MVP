@@ -7,11 +7,12 @@
     <string name="app_coder">Герасимов Виталий</string>
     <string name="text_email">gervit2008@mail.ru</string>
     <string name="thumbnail">Thumbnail</string>
-    <string name="words">Words</string>
+    <string name="house_words">Words</string>
     <string name="born">Born</string>
     <string name="titles">Titles</string>
     <string name="aliases">Aliases</string>
     <string name="label_father">Father</string>
     <string name="label_mother">Mother</string>
     <string name="name">name</string>
+    <string name="other_house_name">other_home</string>
 </resources>

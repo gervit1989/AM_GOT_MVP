@@ -7,6 +7,8 @@ import android.preference.PreferenceManager;
 import android.util.Log;
 
 import com.facebook.stetho.Stetho;
+import com.skillbranch.sb_got_mvp.data.storage.models.DaoMaster;
+import com.skillbranch.sb_got_mvp.data.storage.models.DaoSession;
 
 
 /**
@@ -28,7 +30,7 @@ public class SkillBranchGOTApplication extends Application {
     /**
      * Библиотечка Dao
      */
-    //private static DaoSession sDaoSession;
+    private static DaoSession sDaoSession;
 
 
     /**
@@ -53,7 +55,7 @@ public class SkillBranchGOTApplication extends Application {
         sSharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
 
         //- Создаем сессию Dao
-        /*DaoMaster.DevOpenHelper helper = new DaoMaster.DevOpenHelper(this, "skillbranch-db");
+        DaoMaster.DevOpenHelper helper = new DaoMaster.DevOpenHelper(this, "skillbranch-db");
 
         //- База данных
         org.greenrobot.greendao.database.Database db = helper.getWritableDb();
@@ -61,16 +63,16 @@ public class SkillBranchGOTApplication extends Application {
         //- Сессия Дао
         sDaoSession = new DaoMaster(db).newSession();
 
-        Stetho.initializeWithDefaults(this);*/
+        Stetho.initializeWithDefaults(this);
     }
 
     /***
      * Доступ к сессии Dao
      * @return сессии Dao
      */
-   /* public static DaoSession getDaoSession() {
+    public static DaoSession getDaoSession() {
         return sDaoSession;
-    }*/
+    }
 
     /**
      * Геттер для пользовательских значений

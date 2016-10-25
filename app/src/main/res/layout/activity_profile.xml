@@ -73,7 +73,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/spacing_bigger_40"
                     android:layout_marginStart="@dimen/spacing_bigger_40"
-                    android:text="@string/words"
+                    android:text="@string/house_words"
                     android:textStyle="bold"/>
 
                 <TextView
