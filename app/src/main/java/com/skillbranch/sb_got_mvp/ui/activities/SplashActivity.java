@@ -1,9 +1,9 @@
-package com.skillbranch.sb_got_mvp;
+package com.skillbranch.sb_got_mvp.ui.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.skillbranch.devtest.R;
+import com.skillbranch.sb_got_mvp.R;
 
 public class SplashActivity extends AppCompatActivity {
 

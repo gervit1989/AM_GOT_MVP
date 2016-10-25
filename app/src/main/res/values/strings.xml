@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">SB_GOT_MVP</string>
+    <string name="house_name_second">LANNISTERS</string>
+    <string name="house_name_first">STARKS</string>
+    <string name="house_name_third">TARGARYENS</string>
+    <string name="hint_search">Поиск</string>
 </resources>
