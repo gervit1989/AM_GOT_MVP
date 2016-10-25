@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/lannisters_menu"
+            android:checkable="true"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="@string/house_name_second">
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/starks_menu"
+            android:checkable="true"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="@string/house_name_first">
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/targariens_menu"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="@string/house_name_third">
+        </item>
+    </group>
+</menu>
